@@ -70,7 +70,7 @@ export default {
 				avs: {
 					blue: '#2c3e50',
 					gray: '#7f8c8d',
-					orange: '#e67e22',
+					gold: '#d4af37', // Changed from orange to gold
 					white: '#ffffff',
 					'light-gray': '#f5f5f5',
 					'dark-gray': '#333333',

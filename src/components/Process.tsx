@@ -39,7 +39,7 @@ const Process = () => {
       <div className="section-content">
         <div className="text-center mb-16">
           <h2 className="section-title text-white">Como Trabalhamos</h2>
-          <div className="w-20 h-1 bg-avs-orange mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-avs-gold mx-auto mb-6"></div>
           <p className="text-white/80 max-w-3xl mx-auto text-xl">
             Nosso processo é estruturado para garantir eficiência e qualidade em cada etapa
           </p>
@@ -47,7 +47,7 @@ const Process = () => {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-avs-orange/30 transform -translate-x-1/2"></div>
+          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-avs-gold/30 transform -translate-x-1/2"></div>
 
           {/* Steps */}
           <div className="space-y-12 relative">
@@ -60,7 +60,7 @@ const Process = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Timeline icon (only visible on desktop) */}
-                <div className="hidden md:flex md:absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-avs-orange items-center justify-center z-10">
+                <div className="hidden md:flex md:absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-avs-gold items-center justify-center z-10">
                   {step.icon}
                 </div>
 
@@ -68,11 +68,11 @@ const Process = () => {
                 <div className={`flex-1 ${index % 2 === 0 ? "md:mr-8" : "md:order-last md:ml-8"}`}>
                   <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/10 hover:bg-white/20 transition-all duration-300">
                     {/* Icon (only visible on mobile) */}
-                    <div className="md:hidden w-12 h-12 rounded-full bg-avs-orange flex items-center justify-center mb-4">
+                    <div className="md:hidden w-12 h-12 rounded-full bg-avs-gold flex items-center justify-center mb-4">
                       {step.icon}
                     </div>
                     
-                    <span className="inline-block text-xs font-medium bg-avs-orange/20 py-1 px-3 rounded-full mb-3">
+                    <span className="inline-block text-xs font-medium bg-avs-gold/20 py-1 px-3 rounded-full mb-3">
                       Etapa {index + 1}
                     </span>
                     <h3 className="text-xl font-semibold mb-2 font-montserrat">{step.title}</h3>

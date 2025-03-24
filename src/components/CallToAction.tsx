@@ -4,8 +4,8 @@ const CallToAction = () => {
     <section className="section-container py-20 bg-avs-blue relative overflow-hidden">
       <div className="section-bg-element">
         <div className="absolute inset-0 blueprint-bg"></div>
-        <div className="absolute -bottom-48 -right-48 w-96 h-96 bg-avs-orange opacity-10 rounded-full"></div>
-        <div className="absolute -top-48 -left-48 w-96 h-96 bg-avs-orange opacity-10 rounded-full"></div>
+        <div className="absolute -bottom-48 -right-48 w-96 h-96 bg-avs-gold opacity-10 rounded-full"></div>
+        <div className="absolute -top-48 -left-48 w-96 h-96 bg-avs-gold opacity-10 rounded-full"></div>
       </div>
       
       <div className="section-content text-center px-6">

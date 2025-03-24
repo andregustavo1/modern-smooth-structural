@@ -4,22 +4,22 @@ import { Clock, Award, Users, Zap } from "lucide-react";
 const About = () => {
   const differentials = [
     {
-      icon: <Clock className="w-6 h-6 text-avs-orange" />,
+      icon: <Clock className="w-6 h-6 text-avs-gold" />,
       title: "Compromisso com prazos",
       description: "Entregamos projetos no tempo acordado, respeitando cronogramas e planejamentos."
     },
     {
-      icon: <Award className="w-6 h-6 text-avs-orange" />,
+      icon: <Award className="w-6 h-6 text-avs-gold" />,
       title: "Excelência técnica",
       description: "Aplicamos conhecimento técnico avançado e as melhores práticas de engenharia."
     },
     {
-      icon: <Users className="w-6 h-6 text-avs-orange" />,
+      icon: <Users className="w-6 h-6 text-avs-gold" />,
       title: "Atendimento personalizado",
       description: "Desenvolvemos soluções sob medida para as necessidades específicas de cada cliente."
     },
     {
-      icon: <Zap className="w-6 h-6 text-avs-orange" />,
+      icon: <Zap className="w-6 h-6 text-avs-gold" />,
       title: "Soluções inovadoras",
       description: "Utilizamos métodos e tecnologias modernas para otimizar resultados."
     }
@@ -31,7 +31,7 @@ const About = () => {
       <div className="section-content">
         <div className="text-center mb-12">
           <h2 className="section-title">Sobre a AVS Engenharia</h2>
-          <div className="w-20 h-1 bg-avs-orange mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-avs-gold mx-auto mb-6"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

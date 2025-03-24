@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -69,7 +68,7 @@ const Navbar = () => {
         <a href="#home" className="relative z-10">
           <h1 className="font-bold text-xl md:text-2xl font-montserrat">
             <span className={scrolled ? "text-avs-blue" : "text-white"}>AVS</span>
-            <span className="text-avs-orange"> Engenharia</span>
+            <span className="text-avs-gold"> Engenharia</span>
           </h1>
         </a>
 
@@ -83,8 +82,8 @@ const Navbar = () => {
                   className={cn(
                     "font-montserrat transition-colors duration-300",
                     scrolled 
-                      ? "text-avs-blue hover:text-avs-orange" 
-                      : "text-white hover:text-avs-orange"
+                      ? "text-avs-blue hover:text-avs-gold" 
+                      : "text-white hover:text-avs-gold"
                   )}
                 >
                   {item.name}
@@ -121,7 +120,7 @@ const Navbar = () => {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="font-montserrat text-xl text-avs-blue hover:text-avs-orange transition-colors duration-300"
+                  className="font-montserrat text-xl text-avs-blue hover:text-avs-gold transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

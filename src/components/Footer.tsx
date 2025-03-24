@@ -40,7 +40,7 @@ const Footer = () => {
           <div>
             <h2 className="font-bold text-2xl font-montserrat mb-4">
               <span className="text-white">AVS</span>
-              <span className="text-avs-orange"> Engenharia</span>
+              <span className="text-avs-gold"> Engenharia</span>
             </h2>
             <p className="text-white/70 mb-6">
               Soluções completas em engenharia civil com excelência técnica. Projetamos, fiscalizamos e executamos obras com compromisso, qualidade e prazos impecáveis.
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className="text-white/70 hover:text-avs-orange transition-colors"
+                    className="text-white/70 hover:text-avs-gold transition-colors"
                   >
                     {item.name}
                   </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-white/70 hover:text-avs-orange transition-colors"
+                    className="flex items-center text-white/70 hover:text-avs-gold transition-colors"
                   >
                     <span className="mr-2">{link.icon}</span>
                     <span>{link.label}</span>
@@ -92,7 +92,7 @@ const Footer = () => {
 
           <button
             onClick={scrollToTop}
-            className="bg-avs-orange/20 hover:bg-avs-orange/30 p-3 rounded-full transition-colors"
+            className="bg-avs-gold/20 hover:bg-avs-gold/30 p-3 rounded-full transition-colors"
             aria-label="Voltar ao topo"
           >
             <ChevronUp className="w-5 h-5 text-white" />

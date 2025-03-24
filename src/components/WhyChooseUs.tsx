@@ -4,22 +4,22 @@ import { Lightbulb, Shield, Target, Headphones } from "lucide-react";
 const WhyChooseUs = () => {
   const reasons = [
     {
-      icon: <Lightbulb className="w-10 h-10 text-avs-orange" />,
+      icon: <Lightbulb className="w-10 h-10 text-avs-gold" />,
       title: "Expertise Técnica",
       description: "Equipe especializada em estruturas complexas, com formação sólida e experiência comprovada.",
     },
     {
-      icon: <Shield className="w-10 h-10 text-avs-orange" />,
+      icon: <Shield className="w-10 h-10 text-avs-gold" />,
       title: "Fiscalização Rigorosa",
       description: "Garantimos a conformidade com todas as normas técnicas e especificações do projeto.",
     },
     {
-      icon: <Target className="w-10 h-10 text-avs-orange" />,
+      icon: <Target className="w-10 h-10 text-avs-gold" />,
       title: "Execução Precisa",
       description: "Obras entregues dentro do prazo e orçamento, com qualidade e acabamento superior.",
     },
     {
-      icon: <Headphones className="w-10 h-10 text-avs-orange" />,
+      icon: <Headphones className="w-10 h-10 text-avs-gold" />,
       title: "Atendimento Personalizado",
       description: "Soluções adaptadas às necessidades específicas de cada cliente e projeto.",
     },
@@ -29,12 +29,12 @@ const WhyChooseUs = () => {
     <section className="section-container section-padding">
       <div className="section-bg-element">
         <div className="absolute top-0 -left-10 w-72 h-72 bg-avs-blue/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 -right-10 w-72 h-72 bg-avs-orange/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 -right-10 w-72 h-72 bg-avs-gold/5 rounded-full blur-3xl"></div>
       </div>
       <div className="section-content">
         <div className="text-center mb-16">
           <h2 className="section-title">Por Que Nos Escolher?</h2>
-          <div className="w-20 h-1 bg-avs-orange mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-avs-gold mx-auto mb-6"></div>
           <p className="section-subtitle">Qualidade técnica e compromisso em cada projeto</p>
         </div>
 

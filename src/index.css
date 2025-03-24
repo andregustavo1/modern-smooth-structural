@@ -78,7 +78,7 @@
   }
 
   .cta-button {
-    @apply bg-avs-orange text-white font-semibold py-3 px-6 rounded-md transition-all duration-300 hover:bg-opacity-90 hover:shadow-md transform hover:-translate-y-1 font-montserrat;
+    @apply bg-avs-gold text-white font-semibold py-3 px-6 rounded-md transition-all duration-300 hover:bg-opacity-90 hover:shadow-md transform hover:-translate-y-1 font-montserrat;
   }
 
   .secondary-button {
@@ -123,7 +123,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-avs-blue to-avs-orange bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-avs-blue to-avs-gold bg-clip-text text-transparent;
   }
 }
 
@@ -144,7 +144,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e67e22;
+  background: #d4af37;
 }
 
 /* Scroll reveal */

@@ -38,13 +38,6 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Decorative elements */}
-        <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#about" className="text-white/80 hover:text-white transition-colors">
-            <ArrowDownCircle size={36} />
-          </a>
-        </div>
-
         {/* Blueprint lines overlay */}
         <div className="absolute top-0 left-0 w-40 h-40 border-t-2 border-l-2 border-white/10 rounded-tl-lg"></div>
         <div className="absolute bottom-0 right-0 w-40 h-40 border-b-2 border-r-2 border-white/10 rounded-br-lg"></div>

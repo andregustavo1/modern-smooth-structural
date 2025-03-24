@@ -49,7 +49,7 @@ const Projects = () => {
       <div className="section-content">
         <div className="text-center mb-16">
           <h2 className="section-title">Projetos Destacados</h2>
-          <div className="w-20 h-1 bg-avs-orange mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-avs-gold mx-auto mb-6"></div>
           <p className="section-subtitle">Conheça alguns dos nossos principais projetos e realizações</p>
         </div>
 
@@ -68,7 +68,7 @@ const Projects = () => {
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute top-4 left-4">
-                      <span className="bg-avs-orange text-white text-xs py-1 px-3 rounded-full">
+                      <span className="bg-avs-gold text-white text-xs py-1 px-3 rounded-full">
                         {project.type}
                       </span>
                     </div>
@@ -84,14 +84,14 @@ const Projects = () => {
 
           {/* Navigation arrows */}
           <button 
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-md text-avs-blue hover:text-avs-orange transition-colors z-10"
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-md text-avs-blue hover:text-avs-gold transition-colors z-10"
             onClick={prevSlide}
             aria-label="Projeto anterior"
           >
             <ArrowLeft size={20} />
           </button>
           <button 
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-md text-avs-blue hover:text-avs-orange transition-colors z-10"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-md text-avs-blue hover:text-avs-gold transition-colors z-10"
             onClick={nextSlide}
             aria-label="Próximo projeto"
           >
@@ -106,7 +106,7 @@ const Projects = () => {
                 onClick={() => setActiveIndex(index)}
                 aria-label={`Ver projeto ${index + 1}`}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  activeIndex === index ? "bg-avs-orange scale-125" : "bg-avs-gray opacity-50"
+                  activeIndex === index ? "bg-avs-gold scale-125" : "bg-avs-gray opacity-50"
                 }`}
               />
             ))}
