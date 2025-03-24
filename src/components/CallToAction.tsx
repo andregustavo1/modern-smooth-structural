@@ -1,11 +1,11 @@
 
 const CallToAction = () => {
   return (
-    <section className="section-container py-20 bg-gradient-to-r from-avs-blue to-avs-blue/90 relative overflow-hidden">
+    <section className="section-container py-20 bg-gradient-to-r from-amber-700 to-amber-900 relative overflow-hidden">
       <div className="section-bg-element">
         <div className="absolute inset-0 blueprint-bg"></div>
-        <div className="absolute -bottom-48 -right-48 w-96 h-96 bg-avs-gold opacity-20 rounded-full"></div>
-        <div className="absolute -top-48 -left-48 w-96 h-96 bg-avs-gold opacity-20 rounded-full"></div>
+        <div className="absolute -bottom-48 -right-48 w-96 h-96 bg-white opacity-10 rounded-full"></div>
+        <div className="absolute -top-48 -left-48 w-96 h-96 bg-white opacity-10 rounded-full"></div>
       </div>
       
       <div className="section-content text-center px-6">
