@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
 
         {/* Decorative elements */}
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce">
           <a href="#about" className="text-white/80 hover:text-white transition-colors">
             <ArrowDownCircle size={36} />
           </a>

@@ -60,7 +60,7 @@ const Process = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Timeline icon (only visible on desktop) */}
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-avs-orange flex items-center justify-center z-10">
+                <div className="hidden md:flex md:absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-avs-orange items-center justify-center z-10">
                   {step.icon}
                 </div>
 

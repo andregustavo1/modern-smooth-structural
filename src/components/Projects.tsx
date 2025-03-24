@@ -99,7 +99,7 @@ const Projects = () => {
           </button>
 
           {/* Indicator dots */}
-          <div className="flex justify-center mt-6 gap-2">
+          <div className="flex justify-center mt-6 pb-8 gap-2">
             {projects.map((_, index) => (
               <button
                 key={index}

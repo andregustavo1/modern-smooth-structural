@@ -68,7 +68,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#home" className="relative z-10">
           <h1 className="font-bold text-xl md:text-2xl font-montserrat">
-            <span className="text-avs-blue">AVS</span>
+            <span className={scrolled ? "text-avs-blue" : "text-white"}>AVS</span>
             <span className="text-avs-orange"> Engenharia</span>
           </h1>
         </a>
@@ -80,7 +80,12 @@ const Navbar = () => {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="font-montserrat text-avs-blue hover:text-avs-orange transition-colors duration-300"
+                  className={cn(
+                    "font-montserrat transition-colors duration-300",
+                    scrolled 
+                      ? "text-avs-blue hover:text-avs-orange" 
+                      : "text-white hover:text-avs-orange"
+                  )}
                 >
                   {item.name}
                 </a>
@@ -94,7 +99,10 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-avs-blue z-20"
+          className={cn(
+            "md:hidden z-20 transition-colors",
+            scrolled ? "text-avs-blue" : "text-white"
+          )}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
