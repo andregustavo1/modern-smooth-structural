@@ -1,4 +1,3 @@
-
 import { ArrowDownCircle } from "lucide-react";
 
 const Hero = () => {
@@ -9,9 +8,12 @@ const Hero = () => {
     >
       {/* Background with overlay */}
       <div className="absolute inset-0 bg-avs-blue/80 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-avs-blue/90 to-black/70 mix-blend-multiply"></div>
-        {/* Grid lines - blueprint style background */}
-        <div className="absolute inset-0 blueprint-bg"></div>
+        <div className="absolute inset-0 bg-black/80 mix-blend-multiply"></div>
+        <img 
+          src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+          alt="" 
+          className="w-full h-full object-cover" 
+        />
       </div>
 
       {/* Content */}
@@ -23,7 +25,7 @@ const Hero = () => {
         </div>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-montserrat leading-tight animate-fade-in opacity-0 animate-delay-100">
           Engenharia Civil com <br />
-          <span className="text-gradient">Excelência e Precisão</span>
+          <span className="text-[#d4af37]">Excelência e Precisão</span>
         </h1>
         <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10 animate-fade-in opacity-0 animate-delay-200">
           Soluções completas em engenharia civil com excelência técnica. 

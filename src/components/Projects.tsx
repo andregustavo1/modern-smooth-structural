@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Edifício Residencial Arpoador",
       type: "Projeto Estrutural",
       description: "Desenvolvimento completo de projeto estrutural para edifício de 12 pavimentos, com soluções para otimização de custos e segurança.",
-      image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+      image: "/images/Leonardo_Kino_XL_Consultoria_tcnica_e_execuo_de_retrofit_em_ed_0.jpg"
     },
     {
       title: "Centro Empresarial Rio Verde",
