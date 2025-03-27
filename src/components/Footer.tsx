@@ -39,8 +39,7 @@ const Footer = () => {
           {/* Logo and description */}
           <div>
             <h2 className="font-bold text-2xl font-montserrat mb-4">
-              <span className="text-white">AVS</span>
-              <span className="text-avs-gold"> Engenharia</span>
+            <img src="/images/logo.png" alt="" className="w-32 h-auto" />
             </h2>
             <p className="text-white/70 mb-6">
               Soluções completas em engenharia civil com excelência técnica. Projetamos, fiscalizamos e executamos obras com compromisso, qualidade e prazos impecáveis.

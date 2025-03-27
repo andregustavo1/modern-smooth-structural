@@ -67,8 +67,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#home" className="relative z-10">
           <h1 className="font-bold text-xl md:text-2xl font-montserrat">
-            <span className={scrolled ? "text-avs-blue" : "text-white"}>AVS</span>
-            <span className="text-avs-gold"> Engenharia</span>
+            <img src="/images/logo.png" alt="" className="w-32 h-auto" />
           </h1>
         </a>
 
