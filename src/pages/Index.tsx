@@ -7,6 +7,7 @@ import About from "@/components/About";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
+import Projects2 from "@/components/Projects2"; // Assuming this is the correct path
 import Process from "@/components/Process";
 import Contact from "@/components/Contact";
 import CallToAction from "@/components/CallToAction";
@@ -47,6 +48,7 @@ const Index = () => {
         <WhyChooseUs />
         <Services />
         <Projects />
+        <Projects2 />
         <Process />
         <Contact />
         <CallToAction />

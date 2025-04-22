@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -21,6 +20,51 @@
   </head>
 
   <body>
+    <!-- Modal para ativar o áudio -->
+    <div id="audio-modal" class="fixed right-4 bg-white p-4 rounded-lg shadow-lg z-50  bottom-0">
+      <div class="flex justify-between items-center">
+        <p class="text-sm font-semibold">Deseja ativar a música de fundo?</p>
+        <button 
+          id="close-modal" 
+          class="text-gray-500 hover:text-gray-800"
+          onclick="closeModal()"
+          aria-label="Fechar"
+        >
+          &times;
+        </button>
+      </div>
+      <button 
+        id="activate-audio" 
+        class="primary-button mt-4 w-full"
+        onclick="activateAudio()"
+      >
+        Ativar Música
+      </button>
+    </div>
+
+    <!-- Contêiner de áudio -->
+    <div id="audio-container" class="hidden">
+      <audio id="background-audio" loop>
+        <source src="/Instrumental.mp3" type="audio/mp3">
+      </audio>
+    </div>
+
+    <script>
+      function activateAudio() {
+        const audio = document.getElementById('background-audio');
+        audio.play().then(() => {
+          document.getElementById('audio-modal').style.display = 'none'; // Esconde o modal
+          document.getElementById('audio-container').classList.remove('hidden'); // Mostra o contêiner de áudio
+        }).catch((error) => {
+          console.error('Erro ao reproduzir o áudio:', error);
+        });
+      }
+
+      function closeModal() {
+        document.getElementById('audio-modal').style.display = 'none'; // Esconde o modal
+      }
+    </script>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

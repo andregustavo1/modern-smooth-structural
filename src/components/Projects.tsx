@@ -41,7 +41,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="section-container section-padding">
+    <section id="projects" className="section-container section-padding hidden">
       <div className="section-bg-element">
         <div className="absolute top-0 left-0 w-full h-full blueprint-bg"></div>
       </div>
