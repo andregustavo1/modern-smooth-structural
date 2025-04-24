@@ -17,18 +17,8 @@ const Projects2 = () => {
       description: "Fase estrutural da academia de Feijó, demonstrando a qualidade e precisão técnica em cada etapa de execução.",
       image: "/Obras/Academia - Feijó Acre/23dcb94a-858f-4261-b150-7aeb5423c3c0.jpg"
     },
-    {
-      title: "Academia - Feijó Acre (Vista Aérea)",
-      type: "Projeto Concluído",
-      description: "Vista panorâmica da academia de Feijó mostrando a integração da estrutura com o ambiente urbano local.",
-      image: "/Obras/Academia - Feijó Acre/3a1d19df-5665-4169-afaf-11eea28e6bfc.jpg"
-    },
-    {
-      title: "Residência EcoVille - Foto 01",
-      type: "Execução de Obra",
-      description: "Residência de alto padrão no EcoVille, Rio Branco, com design moderno e sustentável.",
-      image: "/Obras/Residência EcoVille - Rio Branco Acre/Foto 01.JPG"
-    },
+  
+  
     {
       title: "Residência EcoVille - Foto 02",
       type: "Execução de Obra",
@@ -83,12 +73,6 @@ const Projects2 = () => {
       description: "Vista noturna da residência no EcoVille, destacando a iluminação arquitetônica.",
       image: "/Obras/Residência EcoVille - Rio Branco Acre/Foto 10.JPG"
     },
-    {
-      title: "Residência EcoVille - Foto 11",
-      type: "Execução de Obra",
-      description: "Detalhes finais da residência no EcoVille, com foco em conforto e funcionalidade.",
-      image: "/Obras/Residência EcoVille - Rio Branco Acre/Foto 11.JPG"
-    }
   ];
 
   const nextSlide = () => {
