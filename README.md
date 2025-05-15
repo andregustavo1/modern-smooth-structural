@@ -8,24 +8,15 @@ This project is a professional business landing page built with React and Tailwi
 ![image](https://github.com/user-attachments/assets/d702cfc0-243d-48e6-9866-1f6aa463c67d)
 
 
-✨ Features
-Modern and responsive design
+### ✨ Features
+- Modern and responsive design  
+- Hero section with CTA (Call to Action)  
+- Services or product showcase  
+- Optimized for SEO & performance  
+- Fully responsive (Mobile, Tablet, Desktop)
 
-Hero section with CTA (Call to Action)
-
-Services or product showcase
-
-Contact form or booking section
-
-Optimized for SEO & performance
-
-Fully responsive (Mobile, Tablet, Desktop)
-
-🛠️ Tech Stack
-
-React
-
-Tailwind CSS
-
-Vercel for deployment
+### 🛠️ Tech Stack
+- React
+- Tailwind CSS
+- Vercel for deployment
 
